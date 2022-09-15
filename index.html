@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div align="center">
+        <h3>REGISTRATION FORM</h3><br><br>
+        <form id="form">
+            <label for="name">Name<span style="color:red;">*</span></label>
+            <input type="text" id="name" name="name" required>
+            <br><br>
+            <label for="email">Email<span style="color:red;">*</span></label>
+            <input required type="email" id="email" name="email">
+            <br><br>
+            <label for="password">Password<span style="color:red;">*</span></label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+            <label for="dob">Date of Birth<span style="color:red;">*</span></label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <input type="checkbox" id="TermsAccepted" name="TermsAccepted">
+            <label for="TermsAccepted">Accept the Terms and Conditions</label>
+            <br><br>
+            <button class="button" type="submit">Submit</button>
+            <br><br>
+            <div>
+                <h3 style="text-align:center;">Entries</h3>
+                <div id="entry"></div>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

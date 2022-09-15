@@ -1,0 +1,14 @@
+body {
+    background-color: #FFEBCD;
+}
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
