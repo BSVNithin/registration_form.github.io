@@ -55,7 +55,7 @@ const display=()=>{
     <th>Email</th>
     <th>Password</th>
     <th>Dob</th>
-    <th>Terms Accepted?</th>
+    <th>Accepted Terms?</th>
     </tr>
     ${tableEntries}</table>`;
     let det=document.getElementById("entry");
